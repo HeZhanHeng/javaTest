@@ -1,0 +1,10 @@
+1.线程的生命周期四个状态：新建、运行、中断、死亡
+2.调用是start方法，重写是用的run
+3.实现runnable接口和继承Thread的区别：
+   一个类可以实现多个接口，一个类只能继承一个父类
+   runnable接口适合于资源共享，继承Thread也可实现共享变量(static)
+   Thread也是runnable接口的子类
+4.线程常用的方法：
+  start,run,sleep,isAlive,currentThread,interrupt
+5.线程同步：synchronize
+   当一个线程使用这个方法时，其他线程想使用这个方法就必须等待，直到线程使用完该方法。会计先存完，存完出纳去取。
